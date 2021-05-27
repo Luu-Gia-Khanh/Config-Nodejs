@@ -1,0 +1,12 @@
+<form method="GET">
+  <div class="form-group">
+    <label for="email">Search:</label>
+    <input type="text" class="form-control" id="" name="search">
+  </div>
+  <button type="submit" class="btn btn-success mt-2">Search</button>
+  
+</form>
+
+{{#each course}}
+  {{ this.name }}
+{{/each}}
